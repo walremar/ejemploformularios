@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Formularios</title>
+</head>
+<body bgcolor="#0EE4CD" text="#904041">
+	<h1 align="center">Formularios en HTML</h1>
+	<hr>
+	<form action="" method="get">
+	<h3>Caja de Texto</h3>
+		<label>Ingrese un Nombre</label>
+		<input type="text" name="nom" placeholder="Solo Nombres"><br>
+	<h3>Caja de Contraseña</h3>
+		<label>Ingrese un contraseña</label>
+		<input type="password" name="contra" placeholder="Ingrese su Contraseña">
+	<h3>Opciones y Casillas de verificación</h3>
+		<label>Seleccione Nacionalidad</label><br>
+		<input type="radio" name="na">
+		<label>Guatemala</label><br>
+		<input type="radio" name="na">
+		<label>El Salvador</label><br>
+		<input type="radio" name="na">
+		<label>USA</label><br>
+		
+		<label>Seleccione Nacionalidad</label><br>
+		<input type="checkbox" name="na1">
+		<label>Guatemala</label><br>
+		<input type="checkbox" name="na2">
+		<label>El Salvador</label><br>
+		<input type="checkbox" name="na3">
+		<label>USA</label><br>
+		
+		<h3>Botones</h3>
+		<input type="submit" value="Presionar Aquí">
+		
+		<h3>Menús Colgantes</h3>
+		<label>Seleccione Nacionalidad</label><br>
+		<select name="Na">
+			<option value="n1">Guatemala</option>
+			<option value="n2">El Salvador</option>
+			<option value="n3">USA</option>
+		</select>
+		
+		<h3>Colores, subir Archivo y Correo</h3>
+		<input type="color"><br>
+		<input type="file" name="archivo"><br>
+		<input type="email" name="correo">
+		
+	</form>
+</body>
+</html>
